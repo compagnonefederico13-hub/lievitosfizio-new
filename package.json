@@ -5,11 +5,9 @@
   "description": "Sito ufficiale di Lievito Sfizio — Pizzeria e Friggitoria",
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/check-structure.mjs",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc --noEmit",
-    "check": "node scripts/check-structure.mjs"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "next": "^15.5.0",

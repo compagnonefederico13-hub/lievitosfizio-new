@@ -2,10 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { images } from "@/data/images";
 import { formatPrice, menu } from "@/data/menu";
-import { Reveal } from "@/components/ui/Reveal";
-import { SectionHeader } from "@/components/ui/SectionHeader";
-import { ArrowIcon } from "@/components/ui/Icons";
-import { DemoBadge } from "@/components/menu/DemoBadge";
+import { Reveal } from "../ui/Reveal";
+import { SectionHeader } from "../ui/SectionHeader";
+import { ArrowIcon } from "../ui/Icons";
+import { DemoBadge } from "../menu/DemoBadge";
 
 export function SignaturePizzas() {
   const featured = menu.categories.flatMap((c) => c.items).filter((i) => i.featured).slice(0, 3);

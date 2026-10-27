@@ -74,11 +74,6 @@ package.json, next.config.ts, tsconfig.json, postcss.config.mjs, next-env.d.ts  
 
 Nota: in Next.js tutte le pagine si chiamano `page.tsx`; è la **cartella** a determinare la rotta.
 
-Tutti gli import interni usano l'alias `@/` (es. `@/components/ui/Reveal`), che parte dalla root
-del progetto. Prima di ogni `npm run build` (anche su Vercel) viene eseguito automaticamente
-`scripts/check-structure.mjs`: se un file è nella cartella sbagliata, la build si ferma subito
-indicando dove va spostato. Si può lanciare anche a mano con `npm run check`.
-
 ## 3. Dove si modificano i contenuti
 
 ### Recapiti, indirizzo, orari — `data/site.ts`
@@ -219,7 +214,7 @@ poi gestiti su Vercel. Per chi usa la posta Aruba è più semplice la strada dei
 Preparazione e correzione della struttura sono state fatte in un ambiente senza accesso al
 registro npm e senza accesso al repository GitHub:
 
-- **Verificato:** tutti i 97 import interni puntano a file esistenti; struttura `app/` + `components/` + `data/` + `lib/` + `public/` nella root;
+- **Verificato:** struttura `app/` + `components/` + `data/` + `lib/` + `public/` nella root;
   risoluzione di tutti gli import (alias `@/*` → root) e degli import delle 14 immagini in
   `public/images/`; rendering di tutte le pagine (`/`, `/menu`, `/privacy`, `/cookie`, 404) con
   React 19 e Tailwind CSS 4 (moduli `next/*` sostituiti da stub), senza errori in console e

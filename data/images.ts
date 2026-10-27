@@ -1,19 +1,19 @@
 import type { StaticImageData } from "next/image";
 
-import heroPizza from "@/public/images/hero-pizza.jpg";
-import pizza01 from "@/public/images/pizza-01.jpg";
-import pizza02 from "@/public/images/pizza-02.jpg";
-import pizza03 from "@/public/images/pizza-03.jpg";
-import laCasaSala from "@/public/images/la-casa-sala.jpg";
-import impastoMani from "@/public/images/impasto-mani.jpg";
-import g01 from "@/public/images/gallery-01-pizza-dettaglio.jpg";
-import g02 from "@/public/images/gallery-02-fritti.jpg";
-import g03 from "@/public/images/gallery-03-impasto.jpg";
-import g04 from "@/public/images/gallery-04-ingredienti.jpg";
-import g05 from "@/public/images/gallery-05-forno.jpg";
-import g06 from "@/public/images/gallery-06-sala.jpg";
-import g07 from "@/public/images/gallery-07-pizzaiolo.jpg";
-import g08 from "@/public/images/gallery-08-tavola.jpg";
+import heroPizza from "../public/images/hero-pizza.jpg";
+import pizza01 from "../public/images/pizza-01.jpg";
+import pizza02 from "../public/images/pizza-02.jpg";
+import pizza03 from "../public/images/pizza-03.jpg";
+import laCasaSala from "../public/images/la-casa-sala.jpg";
+import impastoMani from "../public/images/impasto-mani.jpg";
+import g01 from "../public/images/gallery-01-pizza-dettaglio.jpg";
+import g02 from "../public/images/gallery-02-fritti.jpg";
+import g03 from "../public/images/gallery-03-impasto.jpg";
+import g04 from "../public/images/gallery-04-ingredienti.jpg";
+import g05 from "../public/images/gallery-05-forno.jpg";
+import g06 from "../public/images/gallery-06-sala.jpg";
+import g07 from "../public/images/gallery-07-pizzaiolo.jpg";
+import g08 from "../public/images/gallery-08-tavola.jpg";
 
 /**
  * REGISTRO IMMAGINI

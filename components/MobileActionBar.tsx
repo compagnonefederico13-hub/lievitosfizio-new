@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { links } from "@/lib/links";
-import { MenuBookIcon, PhoneIcon, PinIcon, WhatsAppIcon } from "@/components/ui/Icons";
+import { MenuBookIcon, PhoneIcon, PinIcon, WhatsAppIcon } from "./ui/Icons";
 
 /**
  * Barra azioni fissa in basso, solo su smartphone/tablet:

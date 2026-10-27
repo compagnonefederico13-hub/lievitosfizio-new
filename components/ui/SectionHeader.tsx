@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { Reveal } from "@/components/ui/Reveal";
+import { Reveal } from "./Reveal";
 
 export function SectionHeader({
   index,

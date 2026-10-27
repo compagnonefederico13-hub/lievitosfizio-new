@@ -3,8 +3,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { Logo } from "@/components/ui/Logo";
-import { CloseIcon, InstagramIcon, PhoneIcon, WhatsAppIcon } from "@/components/ui/Icons";
+import { Logo } from "./ui/Logo";
+import { CloseIcon, InstagramIcon, PhoneIcon, WhatsAppIcon } from "./ui/Icons";
 import { links } from "@/lib/links";
 import { site } from "@/data/site";
 import { navItems } from "@/data/nav";

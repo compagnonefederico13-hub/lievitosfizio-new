@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { images } from "@/data/images";
 import { site } from "@/data/site";
-import { ButtonLink } from "@/components/ui/ButtonLink";
-import { ArrowIcon } from "@/components/ui/Icons";
+import { ButtonLink } from "../ui/ButtonLink";
+import { ArrowIcon } from "../ui/Icons";
 
 export function Hero() {
   const facts = [

@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { Logo } from "@/components/ui/Logo";
-import { TodoNote } from "@/components/ui/TodoNote";
-import { InstagramIcon } from "@/components/ui/Icons";
+import { Logo } from "./ui/Logo";
+import { TodoNote } from "./ui/TodoNote";
+import { InstagramIcon } from "./ui/Icons";
 import { site } from "@/data/site";
 import { addressLine, links } from "@/lib/links";
 import { navItems } from "@/data/nav";
