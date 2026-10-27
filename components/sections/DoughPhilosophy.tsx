@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { images } from "@/data/images";
-import { Reveal } from "../ui/Reveal";
-import { SectionHeader } from "../ui/SectionHeader";
-import { TodoNote } from "../ui/TodoNote";
+import { Reveal } from "@/components/ui/Reveal";
+import { SectionHeader } from "@/components/ui/SectionHeader";
+import { TodoNote } from "@/components/ui/TodoNote";
 
 /**
  * Testi volutamente generici: descrivono un approccio, non dati tecnici.

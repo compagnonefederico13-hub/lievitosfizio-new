@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { links, addressLine } from "@/lib/links";
-import { PinIcon } from "./ui/Icons";
+import { PinIcon } from "@/components/ui/Icons";
 
 /**
  * Google Maps caricato SOLO dopo il clic dell'utente.

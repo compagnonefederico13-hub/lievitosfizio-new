@@ -1,10 +1,10 @@
 import Image from "next/image";
 import { gallery } from "@/data/images";
 import { links } from "@/lib/links";
-import { Reveal } from "../ui/Reveal";
-import { SectionHeader } from "../ui/SectionHeader";
-import { ButtonLink } from "../ui/ButtonLink";
-import { InstagramIcon } from "../ui/Icons";
+import { Reveal } from "@/components/ui/Reveal";
+import { SectionHeader } from "@/components/ui/SectionHeader";
+import { ButtonLink } from "@/components/ui/ButtonLink";
+import { InstagramIcon } from "@/components/ui/Icons";
 
 const shapeClass = {
   tall: "row-span-2",

@@ -1,11 +1,11 @@
 import type { ReactNode } from "react";
 import { site } from "@/data/site";
 import { addressLine, formatDays, links } from "@/lib/links";
-import { Reveal } from "../ui/Reveal";
-import { ButtonLink } from "../ui/ButtonLink";
-import { TodoNote } from "../ui/TodoNote";
-import { ClockIcon, InstagramIcon, PhoneIcon, PinIcon, WhatsAppIcon } from "../ui/Icons";
-import { MapEmbed } from "../MapEmbed";
+import { Reveal } from "@/components/ui/Reveal";
+import { ButtonLink } from "@/components/ui/ButtonLink";
+import { TodoNote } from "@/components/ui/TodoNote";
+import { ClockIcon, InstagramIcon, PhoneIcon, PinIcon, WhatsAppIcon } from "@/components/ui/Icons";
+import { MapEmbed } from "@/components/MapEmbed";
 
 function InfoRow({
   icon,
