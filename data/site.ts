@@ -34,7 +34,7 @@ export const site = {
    * Mostra sul sito le note "Da completare" accanto ai contenuti da validare.
    * Impostare a false SOLO dopo aver sostituito tutti i segnaposto.
    */
-  showTodoNotes: true,
+  showTodoNotes: false,
 
   /** Fonte: bio Instagram "Info e prenotazioni 0810572661" */
   phone: {
