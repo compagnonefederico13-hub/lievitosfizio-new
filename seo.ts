@@ -58,7 +58,7 @@ export function restaurantJsonLd() {
 
   if (!menu.isDemo) data.hasMenu = `${site.url}/menu`;
 
-  if (!images.hero.placeholder) data.image = [`${site.url}${images.hero.src.src}`];
+  if (!images.hero.placeholder) data.image = [`${site.url}${images.hero.src}`];
 
   const sameAs = [site.social.instagram, site.social.facebook].filter(Boolean);
   if (sameAs.length) data.sameAs = sameAs;
