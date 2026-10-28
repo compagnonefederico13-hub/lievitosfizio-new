@@ -14,7 +14,11 @@ const shapeClass = {
 
 export function Gallery() {
   return (
-    <section id="galleria" aria-labelledby="galleria-title" className="bg-ivory py-24 sm:py-32">
+    <section
+      id="galleria"
+      aria-labelledby="galleria-title"
+      className="bg-ivory py-24 sm:py-32"
+    >
       <div className="container-site">
         <SectionHeader
           index="04"
@@ -32,7 +36,7 @@ export function Gallery() {
           {gallery.map((img, i) => (
             <Reveal
               as="li"
-              key={img.src.src}
+              key={img.src}
               delay={(i % 4) * 70}
               className={`group relative overflow-hidden rounded-[1rem] bg-cream ${shapeClass[img.shape]}`}
             >
@@ -41,10 +45,14 @@ export function Gallery() {
                   src={img.src}
                   alt={img.alt}
                   fill
-                  sizes={img.shape === "wide" ? "(min-width: 1024px) 50vw, 100vw" : "(min-width: 1024px) 25vw, 50vw"}
-                  placeholder="blur"
+                  sizes={
+                    img.shape === "wide"
+                      ? "(min-width: 1024px) 50vw, 100vw"
+                      : "(min-width: 1024px) 25vw, 50vw"
+                  }
                   className="object-cover transition-transform duration-[1.2s] ease-[var(--ease-soft)] group-hover:scale-[1.04]"
                 />
+
                 <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/70 to-transparent px-4 pt-10 pb-3 font-display text-[1.05rem] text-ivory italic">
                   {img.caption}
                 </figcaption>
