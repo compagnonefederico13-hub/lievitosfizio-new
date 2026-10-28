@@ -34,7 +34,7 @@ export const site = {
    * Mostra sul sito le note "Da completare" accanto ai contenuti da validare.
    * Impostare a false SOLO dopo aver sostituito tutti i segnaposto.
    */
-  showTodoNotes: true,
+  showTodoNotes: false,
 
   /** Fonte: bio Instagram "Info e prenotazioni 0810572661" */
   phone: {
@@ -73,7 +73,15 @@ export const site = {
    * Esempio di formato (NON reale):
    *   { days: ["Tu","We","Th","Fr","Sa","Su"], opens: "19:00", closes: "23:30", label: "Cena" }
    */
-  hours: [] as OpeningSlot[],
+
+hours: [
+  {
+    days: ["Tu", "We", "Th", "Fr", "Sa", "Su"],
+    opens: "19:00",
+    closes: "00:00",
+    label: "Cena",
+  },
+] as OpeningSlot[],
 
   /** Fonte: bio Instagram "Chiuso il Lunedì" */
   closedNote: "Chiuso il lunedì",
