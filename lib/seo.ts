@@ -19,6 +19,7 @@ const schemaDays: Record<string, string> = {
  */
 export function restaurantJsonLd() {
   const a = site.address;
+
   const data: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Restaurant",
@@ -44,7 +45,11 @@ export function restaurantJsonLd() {
   }
 
   if (site.geo) {
-    data.geo = { "@type": "GeoCoordinates", latitude: site.geo.lat, longitude: site.geo.lng };
+    data.geo = {
+      "@type": "GeoCoordinates",
+      latitude: site.geo.lat,
+      longitude: site.geo.lng,
+    };
   }
 
   if (site.hours.length > 0) {
@@ -58,7 +63,9 @@ export function restaurantJsonLd() {
 
   if (!menu.isDemo) data.hasMenu = `${site.url}/menu`;
 
-  if (!images.hero.placeholder) data.image = [`${site.url}${images.hero.src}`];
+  if (!images.hero.placeholder) {
+    data.image = [`${site.url}${images.hero.src}`];
+  }
 
   const sameAs = [site.social.instagram, site.social.facebook].filter(Boolean);
   if (sameAs.length) data.sameAs = sameAs;
@@ -68,3 +75,4 @@ export function restaurantJsonLd() {
 
 export const defaultDescription =
   "Lievito Sfizio, pizzeria e friggitoria a Pomigliano d'Arco: pizza preparata con cura, fritti, proposte anche senza glutine. Informazioni e prenotazioni al telefono.";
+
