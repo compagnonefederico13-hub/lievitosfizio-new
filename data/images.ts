@@ -11,7 +11,7 @@ export type SiteImage = {
 
 export const images = {
   hero: {
-    src: "/images/lievito13.JPG",
+    src: "/images/lievito13.jpg",
     alt: "Lievito Sfizio, pizza artigianale",
     placeholder: false,
     focus: "50% 55%",
