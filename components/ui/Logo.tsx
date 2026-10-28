@@ -1,5 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+export function DoughMark({ className = "" }: { className?: string }) {
+  return (
+    <span aria-hidden="true" className={className}>♥</span>
+  );
+}
 
 type LogoProps = {
   tone?: "dark" | "light";
