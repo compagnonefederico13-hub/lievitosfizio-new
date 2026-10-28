@@ -20,7 +20,7 @@ export function Hero() {
           fill
           priority
           sizes="100vw"
-          placeholder="blur"
+          
           className="hero-image object-cover"
           style={{ objectPosition: images.hero.focus }}
         />
