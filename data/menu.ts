@@ -24,12 +24,9 @@ export type MenuCategory = {
 export const menu: { isDemo: boolean; footnotes: string[]; categories: MenuCategory[] } = {
   isDemo: false,
   footnotes: [
-    "Prezzi e descrizioni trascritti dal PDF originale: verificare prima della pubblicazione definitiva.",
-    "Bufala fresca: fiordilatte, pomodorini a crudo, olio e basilico. Prezzo da confermare.",
-    "Fattell tu: prezzo da confermare.",
-    "Supplementi indicati nel PDF: senza glutine +€ 0,50 per sfizi/bruschette e +€ 2,00 per pizza; mozzarella senza lattosio +€ 1,50.",
+    "Supplementi indicati: senza glutine +€ 0,50 per sfizi/bruschette e +€ 2,00 per pizza; mozzarella senza lattosio +€ 1,50.",
     "Per allergie o intolleranze avvisare il personale al momento dell’ordine. Il PDF non associa allergeni specifici a ogni singolo piatto.",
-    "Allergeni indicati nel PDF: cereali contenenti glutine, crostacei, uova, pesce, latte, arachidi, soia, frutta a guscio, sedano, senape, semi di sesamo, anidride solforosa e solfiti, lupini, molluschi."
+    "Allergeni indicati: cereali contenenti glutine, crostacei, uova, pesce, latte, arachidi, soia, frutta a guscio, sedano, senape, semi di sesamo, anidride solforosa e solfiti, lupini, molluschi."
   ],
   categories: [
     {
