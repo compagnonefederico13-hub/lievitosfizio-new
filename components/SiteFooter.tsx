@@ -1,3 +1,4 @@
+
 import Link from "next/link";
 import { Logo } from "./ui/Logo";
 import { TodoNote } from "./ui/TodoNote";
@@ -8,6 +9,7 @@ import { navItems } from "@/data/nav";
 
 export function SiteFooter() {
   const year = new Date().getFullYear();
+
   return (
     <footer className="bg-ink pb-28 text-ivory/80 lg:pb-0">
       <div className="container-site grid gap-12 py-16 md:grid-cols-[1.4fr_1fr_1fr] md:py-20">
@@ -44,7 +46,11 @@ export function SiteFooter() {
         <div>
           <h2 className="eyebrow mb-4 font-sans text-ivory/50">Contatti</h2>
           <address className="space-y-2 text-[0.95rem] not-italic">
-            <p>{addressLine() || <TodoNote variant="inline" tone="light">Indirizzo</TodoNote>}</p>
+            <p>
+              {addressLine() || (
+                <TodoNote variant="inline" tone="light">Indirizzo</TodoNote>
+              )}
+            </p>
             {links.tel && (
               <p>
                 <a href={links.tel} className="hover:text-ivory">
@@ -72,6 +78,7 @@ export function SiteFooter() {
             {site.legal.vatNumber ? (
               <span>P.IVA {site.legal.vatNumber}</span>
             ) : (
+              <span>P.IVA non indicata</span>
             )}
           </p>
           <ul className="flex gap-5">
