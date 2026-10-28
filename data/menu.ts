@@ -230,7 +230,7 @@ export const menu: { isDemo: boolean; footnotes: string[]; categories: MenuCateg
         { name: "'O Puork", description: "Provola di Agerola, pulled pork, patate al forno, salsa cheddar", price: 10 },
         { name: "Er Porchetta", description: "Provola di Agerola, porchetta, funghi", price: 10 },
         { name: "Il Gustoso", description: "Hamburger, cheddar, bacon, insalata, pomodorini, cipolle caramellate", price: 12 },
-        { name: "Fattell tu", description: "Descrizione non presente nel PDF.; € ?? (da confermare)", price: null }
+        { name: "Fattell tu", description: "Componi il tuo saltimbocca", price: null }
       ]
     },
     {
