@@ -1,45 +1,49 @@
 
+
 type ImageAsset = string;
 
 export type SiteImage = {
   src: ImageAsset;
   alt: string;
-  /** true finché il file è un segnaposto */
   placeholder: boolean;
-  /** Punto focale per i ritagli (CSS object-position) */
   focus?: string;
 };
 
 export const images = {
   hero: {
-    src: "/images/hero-pizza.jpg",
-    alt: "Pizza artigianale di Lievito Sfizio appena sfornata",
+    src: "/images/lievito13.JPG",
+    alt: "Lievito Sfizio, pizza artigianale",
     placeholder: false,
     focus: "50% 55%",
   },
   pizza01: {
-    src: "/images/pizza-01.jpg",
-    alt: "Pizza classica appena sfornata",
+    src: "/images/img003.jpeg",
+    alt: "Pizza di Lievito Sfizio",
     placeholder: false,
   },
   pizza02: {
-    src: "/images/pizza-02.jpg",
-    alt: "Pizza della casa, dettaglio degli ingredienti",
+    src: "/images/img002.jpeg",
+    alt: "Pizza della casa",
     placeholder: false,
   },
   pizza03: {
-    src: "/images/pizza-03.jpg",
-    alt: "Pizza servita in sala",
+    src: "/images/img001.jpeg",
+    alt: "Pizza preparata da Lievito Sfizio",
     placeholder: false,
   },
   laCasa: {
-    src: "/images/VIN_3304.JPG",
+    src: "/images/VIN_3316.JPG",
     alt: "La sala di Lievito Sfizio",
     placeholder: false,
   },
   impasto: {
-    src: "/images/VIN_3377.JPG",
-    alt: "L'impasto preparato da Lievito Sfizio",
+    src: "/images/VIN_3367.JPG",
+    alt: "L'impasto di Lievito Sfizio",
+    placeholder: false,
+  },
+  birre: {
+    src: "/images/IMG_0256.JPEG",
+    alt: "Le birre alla spina",
     placeholder: false,
   },
 } satisfies Record<string, SiteImage>;
@@ -52,22 +56,22 @@ export type GalleryImage = SiteImage & {
 export const gallery: GalleryImage[] = [
   {
     src: "/images/gallery-01-pizza-dettaglio.jpg",
-    alt: "Dettaglio del cornicione di una pizza",
+    alt: "Dettaglio del cornicione della pizza",
     caption: "Il cornicione",
     shape: "tall",
     placeholder: false,
   },
   {
     src: "/images/gallery-02-fritti.jpg",
-    alt: "Fritti della friggitoria",
+    alt: "I fritti della friggitoria",
     caption: "Friggitoria",
     shape: "wide",
     placeholder: false,
   },
   {
-    src: "/images/VIN_3377.JPG",
-    alt: "L'impasto preparato da Lievito Sfizio",
-    caption: "L'impasto",
+    src: "/images/VIN_3367.JPG",
+    alt: "L'impasto di Lievito Sfizio",
+    caption: "Impasto",
     shape: "wide",
     placeholder: false,
   },
@@ -83,6 +87,13 @@ export const gallery: GalleryImage[] = [
     alt: "La sala di Lievito Sfizio",
     caption: "La nostra sala",
     shape: "wide",
+    placeholder: false,
+  },
+  {
+    src: "/images/IMG_0256.JPEG",
+    alt: "Le birre alla spina",
+    caption: "Le birre alla spina",
+    shape: "tall",
     placeholder: false,
   },
 ];
