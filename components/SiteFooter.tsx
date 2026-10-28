@@ -72,7 +72,6 @@ export function SiteFooter() {
             {site.legal.vatNumber ? (
               <span>P.IVA {site.legal.vatNumber}</span>
             ) : (
-              <TodoNote variant="inline" tone="light">Ragione sociale e P.IVA</TodoNote>
             )}
           </p>
           <ul className="flex gap-5">
