@@ -29,8 +29,7 @@ export function Logo({
         width={240}
         height={100}
         priority
-        className="h-auto w-auto max-h-20 max-w-[240px] object-contain"
-      />
+      className="h-auto w-auto max-h-28 max-w-[320px] object-contain"      />
     </Link>
   );
 }
