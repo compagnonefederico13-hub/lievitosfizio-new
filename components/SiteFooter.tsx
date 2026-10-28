@@ -44,7 +44,7 @@ export function SiteFooter() {
         <div>
           <h2 className="eyebrow mb-4 font-sans text-ivory/50">Contatti</h2>
           <address className="space-y-2 text-[0.95rem] not-italic">
-            <p>{addressLine() && <>{addressLine()}</>}</p>
+            <p>{addressLine() || <TodoNote variant="inline" tone="light">Indirizzo</TodoNote>}</p>
             {links.tel && (
               <p>
                 <a href={links.tel} className="hover:text-ivory">
@@ -70,9 +70,10 @@ export function SiteFooter() {
             © {year} {site.legal.companyName || site.name}
             <span aria-hidden="true">·</span>
             {site.legal.vatNumber ? (
-                          {site.legal.vatNumber && (
               <span>P.IVA {site.legal.vatNumber}</span>
-            )}s
+            ) : (
+              <TodoNote variant="inline" tone="light">Ragione sociale e P.IVA</TodoNote>
+            )}
           </p>
           <ul className="flex gap-5">
             <li>
