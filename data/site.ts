@@ -73,7 +73,15 @@ export const site = {
    * Esempio di formato (NON reale):
    *   { days: ["Tu","We","Th","Fr","Sa","Su"], opens: "19:00", closes: "23:30", label: "Cena" }
    */
-  hours: [] as OpeningSlot[],
+
+hours: [
+  {
+    days: ["Tu", "We", "Th", "Fr", "Sa", "Su"],
+    opens: "19:00",
+    closes: "00:00",
+    label: "Cena",
+  },
+] as OpeningSlot[],
 
   /** Fonte: bio Instagram "Chiuso il Lunedì" */
   closedNote: "Chiuso il lunedì",
