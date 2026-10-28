@@ -11,9 +11,9 @@ import g02 from "../public/images/gallery-02-fritti.jpg";
 import g03 from "../public/images/gallery-03-impasto.jpg";
 import g04 from "../public/images/gallery-04-ingredienti.jpg";
 import g05 from "../public/images/gallery-05-forno.jpg";
-import g06 from "../public/images/gallery-06-sala.jpg";
-import g07 from "../public/images/gallery-07-pizzaiolo.jpg";
-import g08 from "../public/images/gallery-08-tavola.jpg";
+import g06 from "../public/images/VIN_3304.jpg";
+import g07 from "../public/images/VIN_3437.jpg";
+import g08 from "../public/images/VIN_3377.jpg";
 
 /**
  * REGISTRO IMMAGINI
@@ -58,13 +58,14 @@ export type GalleryImage = SiteImage & { caption: string; shape: "tall" | "wide"
  * (smartphone) sia su 4 colonne (desktop). Se si aggiungono foto, mantenere
  * il numero di "tall" uguale al numero di "wide".
  */
+
 export const gallery: GalleryImage[] = [
   { src: g01, alt: "Dettaglio del cornicione di una pizza", caption: "Il cornicione", shape: "tall", placeholder: true },
   { src: g02, alt: "Fritti della friggitoria", caption: "Friggitoria", shape: "wide", placeholder: true },
   { src: g04, alt: "Ingredienti freschi sul banco", caption: "Gli ingredienti", shape: "tall", placeholder: true },
-  { src: g05, alt: "Il forno della pizzeria", caption: "Il forno", shape: "wide", placeholder: true },
-  { src: g08, alt: "Più pizze condivise sulla stessa tavola", caption: "Da condividere", shape: "wide", placeholder: true },
-  { src: g07, alt: "Il pizzaiolo al lavoro", caption: "Al banco", shape: "tall", placeholder: true },
-  { src: g06, alt: "Ospiti a tavola nella sala", caption: "La sala", shape: "wide", placeholder: true },
+  { src: g05, alt: "Il forno di Lievito Sfizio", caption: "Il forno", shape: "wide", placeholder: true },
+  { src: g08, alt: "L'impasto preparato da Lievito Sfizio", caption: "L'impasto", shape: "wide", placeholder: false },
+  { src: g07, alt: "Il forno di Lievito Sfizio", caption: "Il forno", shape: "tall", placeholder: false },
+  { src: g06, alt: "La sala di Lievito Sfizio", caption: "La nostra sala", shape: "wide", placeholder: false },
   { src: g03, alt: "Panetti di impasto", caption: "L'impasto", shape: "tall", placeholder: true },
 ];
