@@ -90,7 +90,7 @@ export const gallery: GalleryImage[] = [
     placeholder: false,
   },
   {
-    src: "/images/IMG_0256.JPEG",
+    src: "/images/IMG_0256.jpeg",
     alt: "Le birre alla spina",
     caption: "Le birre alla spina",
     shape: "tall",
