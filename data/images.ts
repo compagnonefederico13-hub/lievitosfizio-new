@@ -11,10 +11,9 @@ import g02 from "../public/images/gallery-02-fritti.jpg";
 import g03 from "../public/images/gallery-03-impasto.jpg";
 import g04 from "../public/images/gallery-04-ingredienti.jpg";
 import g05 from "../public/images/gallery-05-forno.jpg";
-import g06 from "../public/images/VIN_3304.jpg";
-import g07 from "../public/images/VIN_3437.jpg";
-import g08 from "../public/images/VIN_3377.jpg";
-
+import g06 from "../public/images/VIN_3304.JPG";
+import g07 from "../public/images/VIN_3437.JPG";
+import g08 from "../public/images/VIN_3377.JPG";
 /**
  * REGISTRO IMMAGINI
  *
