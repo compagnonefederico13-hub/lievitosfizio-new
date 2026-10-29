@@ -289,7 +289,7 @@ export const menu: { isDemo: boolean; footnotes: string[]; categories: MenuCateg
       items: [
         { name: "Piedirosso Cantine Olivella", description: "Bottiglia € 25,00 · calice € 9,00", price: 25 },
         { name: "Aglianico Cantine Barone", description: "Bottiglia € 18,00 · calice € 6,00", price: 18 },
-        { name: "Gragnano Mariano Sabatini", description: "Bottiglia € 18,00 · calice € 6,00", price: 18 },
+        { name: "Gragnano Mariano Sabatino", description: "Bottiglia € 18,00 · calice € 6,00", price: 18 },
         { name: "Marsia Cantine Barone", description: "Bottiglia € 16,00 · calice € 5,00", price: 16 },
         { name: "Primitivo Cantine Barone", description: "Bottiglia € 25,00 · calice € 9,00", price: 25 },
         { name: "Primitivo Pridie", description: "Bottiglia € 15,00 · calice € 5,00", price: 15 }
