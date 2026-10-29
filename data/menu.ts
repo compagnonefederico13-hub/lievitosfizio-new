@@ -39,7 +39,7 @@ export const menu: { isDemo: boolean; footnotes: string[]; categories: MenuCateg
     {
       id: "meat-corner",
       title: "Meat corner",
-      note: "Gradi di cottura indicati nel PDF: quasi cruda 35–49°C; al sangue 50–54°C; media al sangue 55–59°C; media 60–64°C; ben cotta 65–70°C.",
+      note: "Gradi di cottura: quasi cruda 35–49°C; al sangue 50–54°C; media al sangue 55–59°C; media 60–64°C; ben cotta 65–70°C.",
       items: [
         { name: "Entrecote Black Angus Argentino", description: "Prezzo all’etto", price: 10.0 },
         { name: "Controfiletto Black Angus Uruguay", description: "Prezzo all’etto", price: 7.0 },
